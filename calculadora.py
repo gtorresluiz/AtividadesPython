@@ -1,7 +1,7 @@
 while True:
 
-    num1 = int(input("digite o primero numero: "))
-    num2 = int(input("digite o segundo numero: "))
+    num1 = float(input("digite o primero numero: "))
+    num2 = float(input("digite o segundo numero: "))
     op = str(input("qual operação deseja realizar entre eles? (+, -, *, /)"))
     result = 0
     valid = True
@@ -24,9 +24,9 @@ while True:
             op = 'multiplicação'
             result = num1 * num2
         case _:
-            print("escolha uma operação válida (+,-,*,/)")
+            print("escolha uma operação válida (+,-,*,/)")  
             valid = False
     
     if valid:
-        print("o resultado da %s entre %d e %d resulta em %d" %(op, num1, num2, result))
-        break
+        print("o resultado da %s entre %d e %d resulta em %.3f" %(op, num1, num2, result))
+        break 
