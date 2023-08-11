@@ -1,7 +1,7 @@
 banana
 melacia
 morango
-maça
+maca 
 lichia
 laranja
 uva 
@@ -11,10 +11,10 @@ bergamota
 pitanga 
 manga 
 pera 
-limão
+limao
 abacate 
 abacaxi 
-açaí 
+acai 
 acerola 
 amora 
 cacau 
@@ -29,10 +29,10 @@ goiaba
 groselha 
 jaca 
 kiwi 
-mamão 
-maracujá
-melão
-pêssego 
+mamao
+maracuja
+melao
+pessego 
 pitaya 
-romã
+roma
 siriguela 

@@ -28,5 +28,5 @@ while True:
             valid = False
     
     if valid:
-        print("o resultado da %s entre %d e %d resulta em %.3f" %(op, num1, num2, result))
+        print("o resultado da %s entre %d e %d resulta em %.1f" %(op, num1, num2, result))
         break 
