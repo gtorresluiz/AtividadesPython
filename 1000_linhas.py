@@ -1,8 +1,12 @@
-arquivo = open('cadastro.txt', 'w')
+arquivo =  open('1000linhas.txt', 'w')
 
-nome = input("qual seu nome? ")
-idade = input("qual sua idade? ")
+contador = 0
 
-arquivo.write(f"nome = {nome}\n")
-arquivo.write(f"idade = {int(idade)}")
-arquivo.close()
+while contador <= 100:
+  arquivo.write(f"linha n{contador}\n")
+  contador += 1
+
+with open('1000linhas.txt', 'r') as arquivo:
+    leitura = arquivo.read()
+  
+print(leitura) 
